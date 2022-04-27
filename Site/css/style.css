@@ -1,0 +1,152 @@
+body{
+    background-color: rgb(253, 182, 95);
+}
+
+header{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 5px solid black;
+    width: 40%;
+    border-radius: 10px;
+}
+
+header h1{
+    font-size: 40pt;
+}
+
+nav{
+    background-color: rgb(155, 40, 40);
+    text-align: center;
+}
+
+footer{
+    background-color: rgb(155, 40, 40);
+    text-align:center
+}
+
+#inicio{
+    width: 60%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 20px solid rgb(88, 66, 66);
+    background-color: rgb(88, 66, 66);
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+#inicio img{
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+    border: 20px solid black;
+    background-color: black;
+}
+#inicio p{
+    font-size:35pt;
+}
+
+#p1{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    padding: 5px;
+    background-color: rgb(88, 66, 66);
+}
+
+#p1 img{
+    width: 250px;
+    height: 250px;
+    padding: 25px;
+    border-radius: 60px;
+}
+
+#p1 p{
+    padding-left: 30px;
+    font-size: 30pt;
+}
+
+#p2{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    background-color: rgb(88, 66, 66);
+    padding: 25px;
+    border-radius: 50px;
+}
+
+#p2 img{
+    width: 500px;
+    height: 450px;
+    border-radius: 20px;
+}
+
+#p2 p{
+    font-size: 20pt;
+}
+
+#mapa-mental{
+    width: 61%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+    border: 20px solid black;
+    background-color: black;
+    border-radius: 20px;
+}
+
+#mapa-mental img{
+    padding-right: 20px;
+    
+}
+
+#p3{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    background-color: rgb(88, 66, 66);
+    padding: 25px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+#p3 ul li{
+    list-style-type: none;
+}
+
+#p3 ul li img{
+    width: 250px;
+    height: 250px;
+    text-align: center;
+}
+
+#final{
+    margin-top: 200px;
+    width: 70%;
+    margin-bottom:100px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    border: 20px solid black;
+    background-color: black;
+    border-radius: 20px;
+}
+
+#final img{
+    width:100%
+}
