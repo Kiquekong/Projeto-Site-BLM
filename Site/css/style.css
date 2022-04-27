@@ -6,13 +6,16 @@ header{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    border: 5px solid black;
     width: 40%;
-    border-radius: 10px;
+    height: 40%;
 }
 
-header h1{
-    font-size: 40pt;
+header img{
+    width: 95%;
+    height: 90%;
+    border-radius: 60px;
+    border: 20px solid black;
+    background-color: black;
 }
 
 nav{
@@ -30,21 +33,15 @@ footer{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    border: 20px solid rgb(88, 66, 66);
-    background-color: rgb(88, 66, 66);
+    border: 20px solid rgb(111, 82, 82);
+    background-color: rgb(111, 82, 82);
     border-radius: 30px;
     margin-top: 20px;
 }
 
-#inicio img{
-    width: 400px;
-    height: 300px;
-    border-radius: 20px;
-    border: 20px solid black;
-    background-color: black;
-}
+
 #inicio p{
-    font-size:35pt;
+    font-size:25pt;
 }
 
 #p1{
@@ -57,19 +54,19 @@ footer{
     box-sizing: border-box;
     border-radius: 50px;
     padding: 5px;
-    background-color: rgb(88, 66, 66);
+    background-color: rgb(111, 82, 82);
 }
 
 #p1 img{
-    width: 250px;
-    height: 250px;
+    width: 260px;
+    height: 260px;
     padding: 25px;
     border-radius: 60px;
 }
 
 #p1 p{
     padding-left: 30px;
-    font-size: 30pt;
+    font-size: 22pt;
 }
 
 #p2{
@@ -79,7 +76,7 @@ footer{
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
-    background-color: rgb(88, 66, 66);
+    background-color: rgb(111, 82, 82);
     padding: 25px;
     border-radius: 50px;
 }
@@ -90,7 +87,11 @@ footer{
     border-radius: 20px;
 }
 
-#p2 p{
+#p2 ul{
+    list-style: none;
+}
+
+#p2 ul li p{
     font-size: 20pt;
 }
 
@@ -107,8 +108,7 @@ footer{
 }
 
 #mapa-mental img{
-    padding-right: 20px;
-    
+     border-radius: 20px;
 }
 
 #p3{
@@ -118,14 +118,18 @@ footer{
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
-    background-color: rgb(88, 66, 66);
-    padding: 25px;
+    background-color: rgb(111, 82, 82);
+    padding: 5px;
     border-radius: 50px;
     text-align: center;
 }
 
 #p3 ul li{
     list-style-type: none;
+}
+
+#p3 ul li p{
+    font-size: 20pt;
 }
 
 #p3 ul li img{
