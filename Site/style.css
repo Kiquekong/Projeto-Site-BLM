@@ -154,3 +154,23 @@ footer{
 #final img{
     width:100%
 }
+
+#infográfico{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(111, 82, 82);
+}
+
+#infográfico img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+}
