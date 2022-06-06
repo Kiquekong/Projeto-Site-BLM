@@ -258,3 +258,22 @@ footer ul li{
     width: 30%;
     height: 30%;
 }
+
+#info2 {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    text-align: center;
+    padding: 5px;
+    background-color: black;
+    border: 15px solid black ;
+}
+
+#info2 img{
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+}
