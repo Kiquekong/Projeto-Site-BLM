@@ -25,7 +25,22 @@ nav{
 
 footer{
     background-color: rgb(155, 40, 40);
-    text-align:center
+    text-align:center;
+    display: flex;
+    flex-direction: row;
+}
+
+footer ul{
+    list-style: none;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer ul li{
+    margin: 5px;
+    font-size: 15pt;
+    text-align:center;
 }
 
 #inicio{
@@ -176,4 +191,70 @@ footer{
     width: 100%;
     height: 100%;
     border-radius: 50px;
+}
+
+#p4{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    background-color: rgb(111, 82, 82);
+    padding: 5px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+#borbadegato {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    background-color: rgb(111, 82, 82);
+    padding: 5px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+#borbadegato img{
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+#borbadegato p{
+    font-size: 20pt;
+}
+
+#ods {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    background-color: rgb(111, 82, 82);
+    padding: 5px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+#ods ul{
+    list-style: none;
+}
+
+#ods p{
+    font-size: 20pt;
+}
+
+#ODS {
+    height: 60%;
+    width: 60%;
+}
+
+#ods-10-16 img{
+    margin: 20px;
+    border-radius: 60px;
+    width: 30%;
+    height: 30%;
 }
